@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import {TypeAnimation } from 'react-type-animation';
 import Home from './Home.jsx';
 import { Link } from 'react-router-dom';
-
+import image from './assets/mo.jpg'
 
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
        </div>
 
        <div className='div'>
-       <img src='./src/assets/mo.jpg' className='img'></img>
+       <img src={image} className='img'></img>
       </div>
 
       </div>
