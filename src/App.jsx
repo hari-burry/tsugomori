@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import {TypeAnimation } from 'react-type-animation';
 import Home from './Home.jsx';
 import { Link } from 'react-router-dom';
-import image from './assets/mo.jpg'
+import image from './assets/noom.gif'
 
 
 function App() {
