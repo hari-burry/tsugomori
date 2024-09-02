@@ -29,7 +29,7 @@ function App() {
        
       ]}
       wrapper="span"
-      speed={10}
+      speed={1}
       style={{ fontSize: '2em', display: 'inline-block',color:'greenyellow',fontWeight:'400'}}
     />
         
