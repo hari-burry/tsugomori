@@ -1,9 +1,10 @@
 import '../index.css';
 import img from '../assets/upload.png'
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {Client} from '@gradio/client';
 
 function Gen(){
+ 
    const fileRef=useRef(null);
    const [btn,setBtn]=useState(false);
    const [file,setFile]=useState(false);
