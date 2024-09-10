@@ -18,6 +18,9 @@ module.exports = {
         'Hurricane':['Hurricane'],
         'Montserrat':['Montserrat'],
       },
+      backgroundImage:{
+         'mybg':"url('../assets/wl2.jpg')",
+      },
     },
   },
   plugins: [],
